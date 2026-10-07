@@ -1,5 +1,7 @@
 # SkillRoute by JEStats for Claude Code and Codex
 
+**Published by [JEStats](https://jestats.io). Maintained by Eric Hare.**
+
 [SkillRoute](https://github.com/jestatsio/skillroute) is a local-first skill catalog and router. Index the SKILL.md bundles you already have once. When a task comes in, your agent asks SkillRoute which skills fit and gets a ranked shortlist with confidence scores, the reasons for each match, evidence from the skill text, and clarifying questions when the request is ambiguous. It's useful once your library has grown past what a model can reliably pick from by description alone.
 
 ## Install

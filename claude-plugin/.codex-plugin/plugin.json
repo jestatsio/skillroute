@@ -1,7 +1,7 @@
 {
   "name": "skillroute",
   "version": "0.6.0",
-  "description": "SkillRoute by JEStats: rank your local SKILL.md bundles with confidence and evidence, search your library, and inspect matching skills with your coding agent.",
+  "description": "Find the right skills for your next task. SkillRoute indexes your local SKILL.md library and returns ranked matches with confidence, reasons, and source evidence.",
   "author": {
     "name": "JEStats",
     "url": "https://jestats.io"
@@ -29,7 +29,7 @@
   "skills": "./skills/",
   "interface": {
     "displayName": "SkillRoute by JEStats",
-    "shortDescription": "Find the right skills for your task with local routing, confidence, and evidence.",
+    "shortDescription": "Find the right agent skills",
     "developerName": "JEStats",
     "category": "Developer Tools",
     "websiteURL": "https://jestats.io",
@@ -37,8 +37,17 @@
     "brandColor": "#D9531E",
     "logo": "./.claude-plugin/icon.svg",
     "defaultPrompt": [
-      "Index my installed skills and find the best ones for this task",
-      "Show me which skills match this project"
-    ]
+      "Find the best skills in my library for this task",
+      "Show which skills match this project",
+      "Explain why these skills fit my request"
+    ],
+    "longDescription": "Find the right skills for your next coding task. SkillRoute indexes the SKILL.md bundles you already use and ranks matching skills with confidence scores, reasons, and source evidence. Search your library, inspect a skill before using it, and get clarifying questions when a request is ambiguous.\n\nThe default catalog and route traces stay on your machine. Index your skills once, then ask your agent which ones fit your task. Requires Node.js 20+ and uv or an installed SkillRoute Python command. The optional Astra DB backend sends queries to your own database when you select it.\n\nPublished by JEStats. Maintained by Eric Hare.",
+    "capabilities": [
+      "Route skills",
+      "Search skill libraries",
+      "Inspect skills"
+    ],
+    "composerIcon": "./.claude-plugin/icon.svg",
+    "privacyPolicyURL": "https://github.com/jestatsio/skillroute/tree/main/claude-plugin#privacy"
   }
 }
