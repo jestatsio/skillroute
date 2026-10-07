@@ -3,7 +3,7 @@
   "name": "skillroute",
   "displayName": "SkillRoute by JEStats",
   "version": "0.6.0",
-  "description": "SkillRoute by JEStats: rank your local SKILL.md bundles with confidence and evidence, search your library, and inspect matching skills with your coding agent.",
+  "description": "Find the right skills for your next task. SkillRoute indexes your local SKILL.md library and returns ranked matches with confidence, reasons, and source evidence.",
   "author": {
     "name": "JEStats",
     "url": "https://jestats.io"
@@ -30,5 +30,6 @@
         "@skillroute/mcp-server@0.6.0"
       ]
     }
-  }
+  },
+  "icon": ".claude-plugin/icon.svg"
 }
