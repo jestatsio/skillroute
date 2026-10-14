@@ -1,3 +1,5 @@
+<p align="center"><img src="claude-plugin/.claude-plugin/icon.svg" alt="SkillRoute icon" width="88" height="88"></p>
+
 <p align="center">
   <img src="docs/assets/banner.svg" alt="SkillRoute by JEStats — local-first skill routing for agent builders" width="100%">
 </p>
@@ -313,3 +315,9 @@ process, and [SECURITY.md](SECURITY.md) for reporting vulnerabilities.
 <p align="center">
   <sub>Built by <a href="https://jestats.io">JEStats</a> · MIT © Eric Hare · for people who take their skill libraries seriously.</sub>
 </p>
+
+## Documentation
+
+[Read the documentation](https://jestatsio.github.io/skillroute/) for installation, workflows, and reference guides. The [documentation source](website/index.md) is maintained in this repository.
+
+Build locally with `python -m pip install -r docs-requirements.txt` and `mkdocs build --strict`; preview with `mkdocs serve`. GitHub Pages uses the **GitHub Actions** source and deploys after changes reach `main`.

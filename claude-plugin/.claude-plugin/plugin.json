@@ -8,9 +8,9 @@
     "name": "JEStats",
     "url": "https://jestats.io"
   },
-  "homepage": "https://github.com/jestatsio/skillroute",
+  "homepage": "https://jestatsio.github.io/skillroute/",
   "repository": "https://github.com/jestatsio/skillroute",
-  "documentationUrl": "https://github.com/jestatsio/skillroute/tree/main/claude-plugin#readme",
+  "documentationUrl": "https://jestatsio.github.io/skillroute/",
   "supportUrl": "https://github.com/jestatsio/skillroute/issues",
   "privacyPolicyUrl": "https://github.com/jestatsio/skillroute/tree/main/claude-plugin#privacy",
   "license": "MIT",
