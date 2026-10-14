@@ -1,0 +1,19 @@
+
+:root { --md-text-font: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; --md-code-font: "SFMono-Regular", Consolas, monospace; --md-primary-fg-color: #172d30; --md-accent-fg-color: #a93b17; --surface: #f5f5f0; --line: #d8e2df; --muted: #526665; }
+[data-md-color-scheme="slate"] { --md-hue: 185; --md-primary-fg-color: #172d30; --md-accent-fg-color: #ffb28e; --md-typeset-a-color: #ffb28e; --surface: #203237; --line: #3a5155; --muted: #b1c8c9; }
+.md-header__topic:first-child { font-weight: 750; letter-spacing: -.025em; }
+.md-typeset h1,.md-typeset h2,.md-typeset h3 { letter-spacing: -.035em; font-weight: 650; }
+.md-typeset h1 { color: var(--md-default-fg-color); }
+.plugin-hero { padding: 1.4rem 0 2rem; border-bottom: 1px solid var(--line); }
+.plugin-mark { width: 90px; height: 90px; object-fit: contain; float: right; margin: .3rem 1rem 1rem 2rem; border-radius: 18px; }
+.md-typeset .eyebrow { font-size: .65rem; letter-spacing: .13em; font-weight: 750; color: var(--muted); }
+.md-typeset .plugin-hero h1 { font-size: clamp(2.2rem,4.8vw,3.7rem); line-height: 1.07; letter-spacing: -.055em; font-weight: 760; max-width: 19ch; margin: .7rem 0 1.2rem; }
+.md-typeset .lead { font-size: 1.04rem; line-height: 1.7; color: var(--muted); max-width: 40rem; }
+.md-typeset .meta { font-size: .68rem; color: var(--muted); margin-top: 1.8rem; }
+.md-typeset .md-button { border-radius: .35rem; padding: .55em 1.15em; font-size: .8rem; margin: .4rem .3rem .4rem 0; }
+.plugin-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:1rem; margin:1.5rem 0 2.4rem; }
+.plugin-card { padding:1.2rem; border:1px solid var(--line); border-radius:.6rem; background:var(--surface); }
+.md-typeset .plugin-card h3 { margin:0 0 .55rem; font-size:.95rem; }
+.md-typeset .plugin-card p { color:var(--muted); font-size:.77rem; margin-bottom:0; }
+.md-typeset pre>code { border-radius:.4rem; }
+@media(max-width:600px) { .plugin-grid { grid-template-columns:1fr; } .plugin-mark { float:none; margin:0 0 1rem; width:72px; height:72px; } .plugin-hero { padding-top:.4rem; } }

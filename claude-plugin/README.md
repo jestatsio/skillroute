@@ -1,3 +1,5 @@
+<p><img src=".claude-plugin/icon.svg" alt="SkillRoute icon" width="80" height="80"></p>
+
 # SkillRoute by JEStats for Claude Code and Codex
 
 **Published by [JEStats](https://jestats.io). Maintained by Eric Hare.**

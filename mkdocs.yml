@@ -1,0 +1,56 @@
+site_name: SkillRoute
+site_description: Find the right skills for your next task. Local routing with ranked matches, confidence, and evidence.
+site_url: https://jestatsio.github.io/skillroute/
+repo_url: https://github.com/jestatsio/skillroute
+repo_name: jestatsio/skillroute
+edit_uri: edit/main/website/
+docs_dir: website
+site_dir: .site-build
+exclude_docs: |
+  overrides/
+theme:
+  name: material
+  custom_dir: website/overrides
+  logo: assets/icon.svg
+  favicon: assets/icon.svg
+  font: false
+  icon:
+    repo: fontawesome/brands/github
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: custom
+      toggle: {icon: material/weather-night, name: Switch to dark mode}
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: custom
+      toggle: {icon: material/weather-sunny, name: Switch to light mode}
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.tabs.link
+plugins:
+  - search
+extra_css:
+  - stylesheets/extra.css
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - admonition
+  - tables
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - toc:
+      permalink: true
+nav:
+  - Home: index.md
+  - Get started: install.md
+  - Workflows: workflows.md
+  - Reference & support: reference.md
+copyright: SkillRoute by JEStats · MIT licensed

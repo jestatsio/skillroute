@@ -217,21 +217,15 @@ uv run skillroute mcp config --client cursor
 Cursor is detect-and-print only in V1. SkillRoute does not write Cursor config
 until the official config path and schema are stable enough to automate safely.
 
-## Codex Plugin Status
+## Native plugin status
 
-V1 uses direct MCP setup because the server currently points at a local source
-checkout. That is the least surprising path for early users.
+Claude Code and Codex plugins are available from the JEStats community marketplaces.
+Both use the shared `claude-plugin/` package, its routing skill, and the published,
+pinned `@skillroute/mcp-server`. No source checkout is required. Follow the
+[plugin installation steps](#install-the-claude-code-or-codex-plugin) above.
 
-The next packaging step is a Codex plugin that bundles:
-
-- `.codex-plugin/plugin.json`
-- `.mcp.json`
-- friendly assets and screenshots
-- a package entrypoint that does not require editing paths by hand
-
-Codex plugins can bundle MCP servers through an `.mcp.json` file, so the setup
-generator is intentionally close to that future shape. See the official
-[Codex plugin docs](https://developers.openai.com/codex/plugins/build).
+Direct MCP configuration remains available for custom setups. Use one registration
+method per client. Community distribution does not establish official directory approval.
 
 ## Useful Options
 
